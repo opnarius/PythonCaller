@@ -27,7 +27,7 @@ namespace PythonCaller
             var startInfo = new ProcessStartInfo
             {
                 FileName = @"C:\python3\python.exe",
-                Arguments = @"C:\Code\PythonCaller\PythonCaller\bin\Debug\netcoreapp3.0\test1.py",
+                Arguments = @"C:\Code\PythonCaller\PythonCaller\bin\Debug\netcoreapp2.2\test1.py",
                 UseShellExecute = false,
                 CreateNoWindow = true,
                 RedirectStandardInput = true,
